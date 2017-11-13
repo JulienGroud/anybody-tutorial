@@ -191,7 +191,7 @@ excess in information that the optical markers provide. The over-determinate
 solver in AMS works great, but it will calculate velocities and accelerations
 numerically. That has some performance issues when running inverse dynamics
 analysis. To overcome the problem, the MOCAP analysis is split into a two-step
-producedure, as illustrated on  figure :numref:`model_flow_chart`, separating
+procedure, as illustrated on  figure :numref:`model_flow_chart`, separating
 the Marker tracking from the Inverse dynamic analysis.
 
 The overdeterminate kinematic analysis solves the model for positions, and
